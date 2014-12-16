@@ -1,4 +1,4 @@
-remoteVideo-iOS
+remoteVideo-ios
 ===============
 
-Remote video test; sending frames over websockets to a server
+Test app for streaming video from iOS to server via web sockets
