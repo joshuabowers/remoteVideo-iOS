@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>59ECFBA6-EBD9-439E-B9B8-A878C47C21C2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Encoder Demo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EC85BEF756F8EA5E23798977262CCF544AFA13F0</key>
+		<string>https://github.com/hessingsoftware/remoteVideo-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Encoder Demo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EC85BEF756F8EA5E23798977262CCF544AFA13F0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hessingsoftware/remoteVideo-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EC85BEF756F8EA5E23798977262CCF544AFA13F0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EC85BEF756F8EA5E23798977262CCF544AFA13F0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>remoteVideo-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

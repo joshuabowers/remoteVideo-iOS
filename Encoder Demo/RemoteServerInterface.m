@@ -41,6 +41,8 @@ static id __instance = nil;
         
         [self.mDispatcher bind:@"connection_opened" callback:^(id data) {
             NSLog(@"connection opened callback");
+            
+            [self triggerMessagesIndex];
         }];
         
         [self.mDispatcher connect];
@@ -65,9 +67,9 @@ static id __instance = nil;
     //               castId: number }
     // }
     // JOSH
-    NSDictionary *sendableDict = @{ @"frame" : @{ @"data" : frame,
+    NSDictionary *sendableDict = @{ @"data" : @{ @"frame" : @{ @"data" : frame,
                                                   @"cast_id" : PEERFUL_TEST_ROOM_ID }
-                                  };
+                                                 } };
 
     [self.mDispatcher trigger:@"frames.create"
                          data:sendableDict
@@ -84,7 +86,7 @@ static id __instance = nil;
 - (void)triggerMessagesIndex
 {
     // JOSH
-    NSDictionary *sendableDict = @{ @"cast_id" : PEERFUL_TEST_ROOM_ID };
+    NSDictionary *sendableDict = @{ @"data" : @{ @"cast_id" : PEERFUL_TEST_ROOM_ID } };
     [self.mDispatcher trigger:@"messages.index"
                          data:sendableDict
                       success:^(id data)
